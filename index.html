@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Harrison Family Digital Survival Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0fdf4; /* Very light green tint for a calming feel */
+        }
+        .step-number {
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased selection:bg-emerald-200 selection:text-emerald-900">
+
+    <!-- Header -->
+    <header class="bg-slate-900 text-white pt-16 pb-20 px-6 text-center relative overflow-hidden shadow-lg">
+        <div class="max-w-3xl mx-auto relative z-10">
+            <div class="flex justify-center mb-6">
+                <div class="bg-emerald-500/20 p-4 rounded-full border border-emerald-500/30">
+                    <i data-lucide="shield-check" class="w-12 h-12 text-emerald-400"></i>
+                </div>
+            </div>
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight leading-tight">
+                The Harrison Family Digital <br/>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Survival Guide</span>
+            </h1>
+            <p class="text-lg text-slate-300 mb-6 font-light max-w-xl mx-auto">
+                A simple, stress-free manual to protect Mark, Alison, and Ruby's iPhones from hackers, snoops, and trackers.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-3xl mx-auto px-4 -mt-10 relative z-20 pb-24 space-y-8 md:space-y-12">
+
+        <!-- Intro Box -->
+        <div class="bg-white rounded-3xl shadow-xl p-6 md:p-8 border border-slate-100">
+            <h2 class="text-2xl font-bold mb-4 flex items-center text-slate-800">
+                <i data-lucide="hand" class="w-6 h-6 text-amber-500 mr-3"></i> Read This First, Mark!
+            </h2>
+
+            <!-- Avatars Section -->
+            <div class="flex items-center justify-center gap-6 my-6 p-4 bg-slate-50 rounded-2xl border border-slate-100">
+                <div class="flex flex-col items-center">
+                    <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Mark123&skinColor=pale&top=shortHairShortFlat&hairColor=brownDark&facialHair=beardLight&mouth=smile&backgroundColor=dbeafe" alt="Mark" class="w-16 h-16 mb-2 rounded-full shadow-sm border-2 border-white">
+                    <span class="text-sm font-bold text-slate-700">Mark</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Alison123&skinColor=pale&top=longHairStraight&hairColor=brown&accessories=prescription02&mouth=smile&backgroundColor=f3e8ff" alt="Alison" class="w-16 h-16 mb-2 rounded-full shadow-sm border-2 border-white">
+                    <span class="text-sm font-bold text-slate-700">Alison</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Ruby123&skinColor=pale&top=longHairStraight&hairColor=blonde&mouth=smile&backgroundColor=fce7f3" alt="Ruby" class="w-16 h-16 mb-2 rounded-full shadow-sm border-2 border-white">
+                    <span class="text-sm font-bold text-slate-700">Ruby</span>
+                </div>
+            </div>
+
+            <p class="text-slate-600 mb-4 leading-relaxed">
+                Because you, Alison, and Ruby all use iPhones, you are already mostly safe from traditional viruses. However, iPhones do not protect you from <strong>stolen passwords</strong>, <strong>snooping on hotel Wi-Fi</strong>, or <strong>companies secretly tracking your location</strong>.
+            </p>
+            <p class="text-slate-600 mb-4 leading-relaxed">
+                <strong>Home vs. Away:</strong> When you are at home, your home Wi-Fi is like a private, locked house. But when you travel and connect to a Hotel or Airport Wi-Fi, it's like shouting your banking details in a crowded public square. Anyone can listen.
+            </p>
+            <p class="text-slate-600 font-semibold text-emerald-700 bg-emerald-50 p-4 rounded-xl border border-emerald-100">
+                This guide requires zero tech skills. Just follow the steps one by one. You will only need to buy two things total for the whole family, costing around £55-£65 for the entire year.
+            </p>
+        </div>
+
+        <!-- SECTION 1: PASSWORDS -->
+        <section class="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+            <div class="bg-indigo-600 p-6 text-white">
+                <div class="flex items-center mb-2">
+                    <i data-lucide="key-round" class="w-8 h-8 mr-3 text-indigo-200"></i>
+                    <h2 class="text-2xl font-bold">Part 1: The Digital Vault (NordPass)</h2>
+                </div>
+                <p class="text-indigo-100 font-light">Stop using the same password for everything. This remembers them for you.</p>
+            </div>
+            
+            <div class="p-6 md:p-8 space-y-6">
+                <p class="text-slate-600"><strong>Why you need it:</strong> If a hacker guesses your one "go-to" password, they can unlock your bank, your email, and your Amazon account. NordPass gives every app a different, impossible-to-guess password. You only have to remember ONE "Master Password" to unlock the vault.</p>
+                
+                <h3 class="text-lg font-bold border-b pb-2 text-slate-800 mt-6">How to Install & Set Up</h3>
+                
+                <div class="flex items-start">
+                    <div class="text-indigo-600 step-number text-2xl mr-4 pt-1">1.</div>
+                    <div>
+                        <strong class="text-slate-800">Buy the Family Plan</strong>
+                        <p class="text-slate-600 text-sm mt-1">On your iPhone, open Safari and go to the NordPass website. Buy the <strong>Family Plan</strong>. This covers you, Alison, and Ruby so you all get your own private vaults.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="text-indigo-600 step-number text-2xl mr-4 pt-1">2.</div>
+                    <div>
+                        <strong class="text-slate-800">Download the App</strong>
+                        <p class="text-slate-600 text-sm mt-1">Open the blue <strong>App Store</strong> icon on your iPhone. Search for "NordPass" and tap <strong>Get</strong> to download it.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="text-indigo-600 step-number text-2xl mr-4 pt-1">3.</div>
+                    <div>
+                        <strong class="text-slate-800">Create Your Master Password</strong>
+                        <p class="text-slate-600 text-sm mt-1">Open NordPass and log in. It will ask you to create a Master Password. Make it a short sentence that is easy for you to remember, like <em>"MyFirstCarWasABlueFord!"</em>. <br><strong class="text-red-500">CRITICAL: Write this down on a piece of paper and put it in a safe at home. If you forget it, nobody can get your passwords back.</strong></p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="text-indigo-600 step-number text-2xl mr-4 pt-1">4.</div>
+                    <div>
+                        <strong class="text-slate-800">Connect it to your iPhone (Important!)</strong>
+                        <p class="text-slate-600 text-sm mt-1">Go to your iPhone's main <strong>Settings</strong> app. Scroll down and tap <strong>Passwords</strong>. Tap <strong>Password Options</strong>. Turn on <strong>AutoFill Passwords</strong>, and put a checkmark next to <strong>NordPass</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="text-indigo-600 step-number text-2xl mr-4 pt-1">5.</div>
+                    <div>
+                        <strong class="text-slate-800">Invite Alison and Ruby</strong>
+                        <p class="text-slate-600 text-sm mt-1">Inside your NordPass app, look for the "Family" section. Type in Alison and Ruby's email addresses. They will get an email telling them to download the app and create their own Master Passwords. <em>(Make sure you do Step 4 on their phones too!)</em></p>
+                    </div>
+                </div>
+
+                <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100 mt-6">
+                    <h4 class="font-bold text-indigo-800 flex items-center mb-2"><i data-lucide="play-circle" class="w-5 h-5 mr-2"></i> How to Actually Use It Day-to-Day</h4>
+                    <p class="text-sm text-indigo-900 leading-relaxed">
+                        Whenever you try to log into an app or website, your iPhone keyboard will pop up. Right above the keyboard, you will see a little button that says <strong>Passwords</strong>. Tap it. Your phone will scan your face (FaceID), unlock NordPass, and automatically type your password into the box for you. You never have to type a password again!
+                    </p>
+                </div>
+
+                <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100 mt-4 shadow-sm">
+                    <h4 class="font-bold text-indigo-800 flex items-center mb-2"><i data-lucide="copy-check" class="w-5 h-5 mr-2"></i> What about my old passwords?</h4>
+                    <p class="text-sm text-indigo-900 leading-relaxed mb-3">
+                        You have two easy ways to get your current passwords into your new vault:
+                    </p>
+                    <ul class="text-sm text-indigo-900 leading-relaxed space-y-3 list-disc pl-5">
+                        <li><strong>The "Slow & Steady" Way (Recommended):</strong> Just use your phone normally! When you log into a website using your old Apple password, NordPass will pop up and ask, <em>"Do you want me to save this?"</em> Tap <strong>Yes</strong>. Over the next few weeks, all your important passwords will naturally move into your new vault.</li>
+                        <li><strong>The "All At Once" Way:</strong> Open your NordPass app, tap the menu, and choose <strong>Import Passwords</strong>. The app will guide you step-by-step on how to copy every password your iPhone has ever saved right into the vault in about 60 seconds.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION 2: VPN -->
+        <section class="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+            <div class="bg-sky-600 p-6 text-white">
+                <div class="flex items-center mb-2">
+                    <i data-lucide="wifi" class="w-8 h-8 mr-3 text-sky-200"></i>
+                    <h2 class="text-2xl font-bold">Part 2: The Invisibility Cloak (VPN)</h2>
+                </div>
+                <p class="text-sky-100 font-light">The mandatory tool for Mark's hotel Wi-Fi and airport work.</p>
+            </div>
+            
+            <div class="p-6 md:p-8 space-y-6">
+                <p class="text-slate-600"><strong>Why you need it:</strong> A VPN (Virtual Private Network) puts a "tunnel" around your internet. If you use Hotel Wi-Fi, the hotel owner or a hacker sitting in the lobby can see everything you do. If you turn on the VPN, everything turns to gibberish to them.</p>
+                
+                <!-- VPN Infographic -->
+                <div class="flex flex-col md:flex-row items-center justify-between gap-3 my-8 p-5 bg-slate-50 rounded-2xl border border-slate-200">
+                    <div class="flex flex-col items-center text-center p-3 w-full md:w-1/3">
+                        <div class="bg-emerald-100 p-4 rounded-full mb-3 text-emerald-600 shadow-sm border border-emerald-200"><i data-lucide="home" class="w-8 h-8"></i></div>
+                        <span class="text-sm font-bold text-slate-800">Home Wi-Fi</span>
+                        <span class="text-xs text-slate-500 mt-1">Private & Locked</span>
+                    </div>
+                    <div class="text-slate-300 flex items-center justify-center shrink-0">
+                        <i data-lucide="arrow-right" class="hidden md:block w-6 h-6"></i>
+                        <i data-lucide="arrow-down" class="block md:hidden w-6 h-6 my-2"></i>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-3 w-full md:w-1/3">
+                        <div class="bg-rose-100 p-4 rounded-full mb-3 text-rose-600 shadow-sm border border-rose-200"><i data-lucide="building" class="w-8 h-8"></i></div>
+                        <span class="text-sm font-bold text-slate-800">Hotel Wi-Fi</span>
+                        <span class="text-xs text-slate-500 mt-1">Public & Dangerous</span>
+                    </div>
+                    <div class="text-slate-300 flex items-center justify-center shrink-0">
+                        <i data-lucide="arrow-right" class="hidden md:block w-6 h-6"></i>
+                        <i data-lucide="arrow-down" class="block md:hidden w-6 h-6 my-2"></i>
+                    </div>
+                    <div class="flex flex-col items-center text-center p-3 w-full md:w-1/3">
+                        <div class="bg-sky-100 p-4 rounded-full mb-3 text-sky-600 shadow-sm border border-sky-200"><i data-lucide="shield" class="w-8 h-8"></i></div>
+                        <span class="text-sm font-bold text-slate-800">With VPN</span>
+                        <span class="text-xs text-slate-500 mt-1">Invisible Tunnel</span>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-bold border-b pb-2 text-slate-800 mt-6">How to Install & Set Up</h3>
+                
+                <div class="flex items-start">
+                    <div class="text-sky-600 step-number text-2xl mr-4 pt-1">1.</div>
+                    <div>
+                        <strong class="text-slate-800">Buy Bitdefender Premium VPN</strong>
+                        <p class="text-slate-600 text-sm mt-1">On your iPhone, go to the Bitdefender website. Buy the <strong>Premium VPN 1-Year Plan</strong> (Usually covers up to 10 devices, which is plenty for all 3 of your phones).</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="text-sky-600 step-number text-2xl mr-4 pt-1">2.</div>
+                    <div>
+                        <strong class="text-slate-800">Download the App on All Phones</strong>
+                        <p class="text-slate-600 text-sm mt-1">Take Mark's, Alison's, and Ruby's iPhones. Open the <strong>App Store</strong> on each one. Search for <strong>Bitdefender VPN</strong> and tap <strong>Get</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <div class="text-sky-600 step-number text-2xl mr-4 pt-1">3.</div>
+                    <div>
+                        <strong class="text-slate-800">Log In</strong>
+                        <p class="text-slate-600 text-sm mt-1">Open the app on all three phones and log in using the email and password you just used to buy it. (It will ask for permission to "Add VPN Configurations." Tap <strong>Allow</strong> and let it scan your face or enter your phone passcode).</p>
+                    </div>
+                </div>
+
+                <div class="bg-sky-50 p-4 rounded-xl border border-sky-100 mt-6">
+                    <h4 class="font-bold text-sky-800 flex items-center mb-2"><i data-lucide="power" class="w-5 h-5 mr-2 text-sky-600"></i> How to Actually Use It Day-to-Day</h4>
+                    <p class="text-sm text-sky-900 leading-relaxed mb-3">
+                        <strong>At Home:</strong> You do NOT need to use this at home. Your home Wi-Fi has a password, which means it is already a locked house.
+                    </p>
+                    <p class="text-sm text-sky-900 leading-relaxed">
+                        <strong>At a Hotel / Coffee Shop:</strong> Sit down, connect to the hotel Wi-Fi. Then, <strong>immediately</strong> open the Bitdefender VPN app. You will see a giant circle button in the middle of the screen. Tap it. It will turn blue/green and say "Connected." You are now wearing the invisibility cloak. You can safely open your banking app or work emails.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION 3: LOCATION PRIVACY -->
+        <section class="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+            <div class="bg-rose-600 p-6 text-white">
+                <div class="flex items-center mb-2">
+                    <i data-lucide="map-pin-off" class="w-8 h-8 mr-3 text-rose-200"></i>
+                    <h2 class="text-2xl font-bold">Part 3: Stop the Secret Trackers</h2>
+                </div>
+                <p class="text-rose-100 font-light">Stop your iPhones from recording everywhere you go.</p>
+            </div>
+            
+            <div class="p-6 md:p-8 space-y-6">
+                <p class="text-slate-600">Your iPhone keeps a secret diary of where you live, work, and sleep. Apps also track you so they can sell ads. <strong class="text-slate-800">You must do these three steps on Mark's, Alison's, and Ruby's phones.</strong></p>
+                
+                <h3 class="text-lg font-bold border-b pb-2 text-slate-800 mt-6">The Phone Cleanup Checklist</h3>
+                
+                <div class="border border-slate-200 rounded-xl p-5 shadow-sm">
+                    <strong class="text-slate-800 text-lg flex items-center mb-2"><i data-lucide="book-lock" class="w-5 h-5 mr-2 text-rose-500"></i> Step A: Erase the Secret Diary</strong>
+                    <ol class="list-decimal pl-5 text-sm text-slate-600 space-y-2 mt-2">
+                        <li>Open the grey <strong>Settings</strong> app on the iPhone.</li>
+                        <li>Scroll down and tap <strong>Privacy & Security</strong>.</li>
+                        <li>Tap <strong>Location Services</strong> at the very top.</li>
+                        <li>Scroll to the absolute bottom of the long list and tap <strong>System Services</strong>.</li>
+                        <li>Scroll down and tap <strong>Significant Locations</strong>. (It will scan your face).</li>
+                        <li>Tap <strong>Clear History</strong> at the bottom.</li>
+                        <li>Turn the switch at the very top to the <strong>OFF</strong> position.</li>
+                    </ol>
+                </div>
+
+                <div class="border border-slate-200 rounded-xl p-5 shadow-sm">
+                    <strong class="text-slate-800 text-lg flex items-center mb-2"><i data-lucide="radio-tower" class="w-5 h-5 mr-2 text-rose-500"></i> Step B: Hide from Cell Towers</strong>
+                    <ol class="list-decimal pl-5 text-sm text-slate-600 space-y-2 mt-2">
+                        <li>Go back to the main <strong>Settings</strong> screen.</li>
+                        <li>Tap <strong>Cellular</strong> (or Mobile Data).</li>
+                        <li>Tap <strong>Cellular Data Options</strong>.</li>
+                        <li>Look for <strong>Limit Precise Location</strong> and turn the switch <strong>ON</strong> (green). <em>Note: If you don't see this, don't worry, just skip it. Not all phone carriers support it yet.</em></li>
+                    </ol>
+                </div>
+
+                <div class="border border-slate-200 rounded-xl p-5 shadow-sm">
+                    <strong class="text-slate-800 text-lg flex items-center mb-2"><i data-lucide="smartphone" class="w-5 h-5 mr-2 text-rose-500"></i> Step C: Silence the Apps</strong>
+                    <ol class="list-decimal pl-5 text-sm text-slate-600 space-y-2 mt-2">
+                        <li>Go to <strong>Settings > Privacy & Security > Location Services</strong>.</li>
+                        <li>Look at the list of all your apps. Tap on them one by one.</li>
+                        <li>For Shopping apps, Games, and Social Media (like Facebook), set them to <strong>Never</strong>.</li>
+                        <li>For Maps, Uber, or Weather, set them to <strong>While Using the App</strong>.</li>
+                        <li><strong class="text-red-500">Rule of thumb:</strong> Almost no app should ever be set to "Always".</li>
+                    </ol>
+                </div>
+
+                <div class="mt-8 bg-blue-50 rounded-2xl p-6 border border-blue-100 shadow-sm">
+                    <h4 class="font-bold text-blue-900 flex items-center mb-3 text-lg">
+                        <i data-lucide="shield-alert" class="w-6 h-6 mr-2 text-blue-600"></i>
+                        Peace of Mind: Emergencies in Remote Areas
+                    </h4>
+                    <p class="text-sm text-blue-800 leading-relaxed mb-3">
+                        <strong>Will turning these tracking settings off stop the police or ambulance from finding me if I'm in trouble?</strong><br>
+                        <strong>No, you are completely safe.</strong> If Mark is working in a remote area and dials 999 (or 911), the iPhone has a built-in "Emergency Override." It instantly ignores all the privacy rules we just set and beams your exact, pinpoint GPS coordinates directly to the emergency dispatchers.
+                    </p>
+                    <p class="text-sm text-blue-800 leading-relaxed">
+                        Also, the police can always contact your mobile network (like EE, Vodafone, or O2) to find your phone using the physical cell towers in a true emergency, regardless of your iPhone settings. Your physical safety is never compromised by these digital privacy tweaks.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION 4: TWO-FACTOR AUTHENTICATION -->
+        <section class="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+            <div class="bg-violet-600 p-6 text-white">
+                <div class="flex items-center mb-2">
+                    <i data-lucide="shield-half" class="w-8 h-8 mr-3 text-violet-200"></i>
+                    <h2 class="text-2xl font-bold">Part 4: The Double Lock (Two-Factor Authentication)</h2>
+                </div>
+                <p class="text-violet-100 font-light">The absolute best way to stop a hacker, even if they know your password.</p>
+            </div>
+            
+            <div class="p-6 md:p-8 space-y-6">
+                <p class="text-slate-600"><strong>What is it?</strong> Two-Factor Authentication (often called <strong>2FA</strong>) is like having a deadbolt on your front door in addition to the regular lock. If a hacker somehow steals your password (the regular lock), they still cannot get into your bank or email unless they also have your physical iPhone (the deadbolt).</p>
+                
+                <h3 class="text-lg font-bold border-b pb-2 text-slate-800 mt-6">How It Works</h3>
+
+                <!-- 2FA Infographic -->
+                <div class="flex items-center justify-center gap-3 md:gap-6 my-8 p-6 bg-violet-50 rounded-2xl border border-violet-100">
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white p-4 rounded-full shadow-sm text-slate-700 border border-slate-200 mb-3"><i data-lucide="key" class="w-7 h-7"></i></div>
+                        <span class="text-sm font-bold text-slate-700">Password</span>
+                    </div>
+                    <div class="text-violet-400 font-extrabold text-2xl mb-6">+</div>
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-white p-4 rounded-full shadow-sm text-slate-700 border border-slate-200 mb-3"><i data-lucide="smartphone" class="w-7 h-7"></i></div>
+                        <span class="text-sm font-bold text-slate-700">6-Digit Code</span>
+                    </div>
+                    <div class="text-violet-400 font-extrabold text-2xl mb-6">=</div>
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-violet-500 p-4 rounded-full shadow-md text-white border border-violet-600 mb-3"><i data-lucide="door-open" class="w-7 h-7"></i></div>
+                        <span class="text-sm font-bold text-violet-800">Access Granted</span>
+                    </div>
+                </div>
+                
+                <div class="space-y-4 text-sm text-slate-600">
+                    <p>When you turn on 2FA for an account (like your bank, email, or Facebook), logging in becomes a two-step process:</p>
+                    <ol class="list-decimal pl-5 space-y-2 mt-2">
+                        <li>You type in your password (which NordPass does for you!).</li>
+                        <li>The website says, <em>"Hold on, are you really Mark?"</em> and asks for a temporary 6-digit code.</li>
+                        <li>You look at your iPhone to get that code, type it in, and you are allowed inside.</li>
+                    </ol>
+                    <p class="mt-4 font-semibold text-slate-800">Because the hacker in another country does not have your physical iPhone in their hands, they cannot get the 6-digit code, and they are completely blocked.</p>
+                </div>
+
+                <div class="bg-violet-50 p-5 rounded-xl border border-violet-100 mt-6 shadow-sm">
+                    <strong class="text-violet-900 text-lg flex items-center mb-2"><i data-lucide="smartphone" class="w-5 h-5 mr-2 text-violet-600"></i> What is an "Authenticator App"?</strong>
+                    <p class="text-sm text-violet-800 leading-relaxed mb-3">
+                        Sometimes websites will text (SMS) you the 6-digit code. This is okay, but phone texts can occasionally be intercepted by clever hackers. 
+                    </p>
+                    <p class="text-sm text-violet-800 leading-relaxed">
+                        The absolute safest method is to use an <strong>Authenticator App</strong> (the most popular one is <strong>Google Authenticator</strong>, which is free in the App Store). When you open this app, it automatically generates a brand-new, unique 6-digit code every 30 seconds for your accounts. It does not even need Wi-Fi or a cell signal to work! 
+                    </p>
+                    <p class="text-sm text-violet-800 leading-relaxed mt-4 p-3 bg-violet-100 rounded-lg border border-violet-200">
+                        <strong>Your Action Plan:</strong> The next time your bank, email provider, or social media asks if you want to turn on "Two-Factor Authentication" or "2FA", <strong>say YES!</strong> It is the single most powerful thing you can do for your security.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION 5: THE PC QUESTION -->
+        <section class="bg-slate-900 rounded-3xl shadow-xl overflow-hidden border border-slate-800 text-white">
+            <div class="p-6 md:p-8">
+                <div class="flex items-center mb-4 text-emerald-400">
+                    <i data-lucide="laptop" class="w-8 h-8 mr-3"></i>
+                    <h2 class="text-2xl font-bold">Part 5: What about Viruses and PCs?</h2>
+                </div>
+                
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    You might be wondering: <em>"Why didn't we buy Antivirus software?"</em> 
+                    <br><br>
+                    Because Apple locks down iPhones so tightly that normal viruses cannot survive on them. The VPN and the Password vault are all you need for an iPhone. <strong>However, if you or Ruby ever buy a Windows PC, a Laptop, or a Macbook for school or work, the rules change completely.</strong> Computers catch viruses very easily.
+                </p>
+
+                <div class="bg-slate-800 rounded-2xl p-6 border border-slate-700">
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        If you buy a PC, you must buy these two things:
+                    </h3>
+                    
+                    <div class="mb-6">
+                        <strong class="text-lg text-emerald-400 block mb-1">1. Bitdefender Total Security (The Armor)</strong>
+                        <p class="text-slate-400 text-sm">This is the heavy-duty software. You will open this on your computer screen to scan your files, block dangerous websites, and stop hackers from secretly turning on your computer's webcam.</p>
+                    </div>
+
+                    <div>
+                        <strong class="text-lg text-blue-400 block mb-1">2. Bitdefender Agent (The Invisible Helper)</strong>
+                        <p class="text-slate-400 text-sm">When you install Total Security, it also automatically installs "Bitdefender Agent." You cannot open it, and it has no screen. It runs invisibly in the background, constantly talking to the cloud to make sure your main Armor has the latest anti-virus updates. <strong class="text-white">Never uninstall the Agent, or your Armor stops working!</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: SAFE BROWSING (DUCKDUCKGO) -->
+        <section class="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100">
+            <div class="bg-teal-600 p-6 text-white">
+                <div class="flex items-center mb-2">
+                    <i data-lucide="globe" class="w-8 h-8 mr-3 text-teal-200"></i>
+                    <h2 class="text-2xl font-bold">Part 6: Safe Browsing (DuckDuckGo)</h2>
+                </div>
+                <p class="text-teal-100 font-light">Why your current web browser is actually the perfect choice.</p>
+            </div>
+            
+            <div class="p-6 md:p-8 space-y-6">
+                <p class="text-slate-600">I know you are already using the <strong>DuckDuckGo</strong> app to browse the internet instead of Safari or Google Chrome. <strong>Keep using it!</strong> It is the absolute best choice for keeping things simple and private on your iPhone.</p>
+                
+                <h3 class="text-lg font-bold border-b pb-2 text-slate-800 mt-6">Why DuckDuckGo is Great for You:</h3>
+                
+                <div class="space-y-4 text-sm text-slate-600">
+                    <div class="flex items-start">
+                        <i data-lucide="shield-check" class="w-5 h-5 text-teal-500 mr-3 shrink-0 mt-0.5"></i>
+                        <p><strong>Automatic Tracker Blocking:</strong> When you read the news or look at a recipe online, there are usually dozens of invisible trackers trying to follow you. DuckDuckGo blocks them automatically without you having to change any settings.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <i data-lucide="eye-off" class="w-5 h-5 text-teal-500 mr-3 shrink-0 mt-0.5"></i>
+                        <p><strong>No Search History:</strong> Unlike Google, DuckDuckGo does not build an advertising profile on you based on what you search for.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <i data-lucide="flame" class="w-5 h-5 text-teal-500 mr-3 shrink-0 mt-0.5"></i>
+                        <p><strong>The "Fire" Button:</strong> At the bottom of the DuckDuckGo app, there is a literal button with a fire icon. If you tap it, it instantly "burns" (erases) all your open tabs and browsing history in one second. It is the easiest way to clean up your phone.</p>
+                    </div>
+                </div>
+
+                <div class="bg-teal-50 p-5 rounded-xl border border-teal-100 mt-6 shadow-sm">
+                    <strong class="text-teal-900 text-lg flex items-center mb-2"><i data-lucide="key" class="w-5 h-5 mr-2 text-teal-600"></i> Will NordPass still work with it?</strong>
+                    <p class="text-sm text-teal-800 leading-relaxed">
+                        <strong>Yes!</strong> You don't need to use Safari or Google Chrome to use your new password vault. Because we connected NordPass directly to your iPhone's main settings in Part 1, it will seamlessly pop up and fill in your passwords right over the DuckDuckGo app automatically!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center pb-12 text-slate-500 text-sm px-6">
+        <i data-lucide="heart" class="w-6 h-6 mx-auto mb-3 text-rose-300"></i>
+        <p>Keep this guide handy on your phone. Stay safe out there!</p>
+    </footer>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
+
